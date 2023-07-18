@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 23px;
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    font-size: 15px;
+    display: flex;
+
+}
+
+.nav-left span {
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 12px;
+}
+
+.nav-left ul li {
+    font-size: 15px;
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+
+
+.content {
+    display: flex;
+    height: 100%;
+    /* background-color: rgb(183, 79, 79); */
+    margin-top: 32px;
+    border-radius: 50px;
+    padding: 9px;
+    position: relative;
+
+}
+
+/* .content::after {
+    content: "";
+    background-image: url('https://wallpapercave.com/wp/wp2446946.jpg');
+    position: absolute;
+    height: inherit;
+    opacity: 0.15;
+} */
+
+
+.content-left {
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.content-right img {
+    /* height: 355px; */
+    height: 200px;
+    border-radius: 2px solid black;
+    border-radius: 500px;
+
+}
+
+.home-articles {
+    /* height: 1000px; */
+    padding-top: 12px;
+    background-color: rgba(248, 239, 239, 0.5);
+    margin-top: 23px;
+    position: relative;
+
+}
+
+.year-box {
+    position: absolute;
+    /* background-color: rgb(176, 162, 162); */
+    right: 0px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+    font-family: var(--font1);
+}
+.year-box div{
+    margin-top: 12px 0px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+
+}
+
+.home-article-img1 {
+    /* display: block; */
+    width: 300px;
+}
+
+.home-article-content {
+    /* display: block; */
+    align-self: center;
+    padding-left: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    height: 55px;
+    background-color: rgb(197, 199, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 9, 9);
+    flex-direction: column;
+
+}
+
+.footer a {
+    color: black;
+}
